@@ -28,6 +28,11 @@
 ```bash
 helm install k-bot ./helm --set secret_tele.botToken=$TELE_TOKEN --set secret_ghrc.githubToken=$GITHUB_TOKEN
 ```
+2.1. Instal from url:
+
+```bash
+helm install kbot-v0.0.4 https://github.com/Aldans/kbot-helm-chart/releases/download/v0.0.4/helm-kbot-0.0.4.tgz --set secret_tele.botToken=$TELE_TOKEN --set secret_ghrc.githubToken=$GITHUB_TOKEN
+```
 - result
 
 ```bash
